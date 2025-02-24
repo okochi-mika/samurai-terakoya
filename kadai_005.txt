@@ -1,0 +1,13 @@
+Mika.Okochi@MacBook-Air Desktop % mkdir git_challenge
+Mika.Okochi@MacBook-Air git_challenge % git commit -m "hello_worldを追加"
+
+[main 5689849] hello_worldを追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Mika.Okochi@MacBook-Air git_challenge % git commit -m ‘日本語訳を追記’
+[main 7a4f1a7] ‘日本語訳を追記’
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Mika.Okochi@MacBook-Air git_challenge % git log --oneline
+7a4f1a7 (HEAD -> main) ‘日本語訳を追記’
+5689849 hello_worldを追加
