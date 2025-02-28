@@ -1,3 +1,0 @@
-hello_world.txt
-hello_worldwoを追加
-test

@@ -1,0 +1,34 @@
+Mika.Okochi@MacBook-Air git_challenge % mkdir git_challenge
+
+Mika.Okochi@MacBook-Air git_challenge % cd git_challenge
+
+Mika.Okochi@MacBook-Air git_challenge % git init
+
+Initialized empty Git repository in /Users/Mika.Okochi/Desktop/lesson/git_challenge/git_challenge/.git/
+Mika.Okochi@MacBook-Air git_challenge % echo Hello, world! >> hello_world.txt
+
+Mika.Okochi@MacBook-Air git_challenge % git add .
+Mika.Okochi@MacBook-Air git_challenge % git commit -m "hello_world.txt"
+[main (root-commit) 4cc5b03] hello_world.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+Mika.Okochi@MacBook-Air git_challenge % echo こんにちは、世界！ >> hello_world.txt
+
+Mika.Okochi@MacBook-Air git_challenge % git add .
+Mika.Okochi@MacBook-Air git_challenge % git commit -m "日本語訳を追記"
+[main 996d5da] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+Mika.Okochi@MacBook-Air git_challenge % git log --oneline
+996d5da (HEAD -> main) 日本語訳を追記
+4cc5b03 hello_world.txt
+Mika.Okochi@MacBook-Air git_challenge % 
+
+
+
+
+
+
+
+
+
+
